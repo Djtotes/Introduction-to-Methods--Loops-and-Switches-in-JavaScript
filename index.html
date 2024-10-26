@@ -3,7 +3,7 @@
     <body>
         <script>
            /*
-           loop : repeatation : iteration
+            loop : repeatation : iteration
             display Hello 10 times
             x=1
             2
@@ -13,8 +13,26 @@
             x=10
             */
            var x;
-           for(x=1;x=10;x+=1){
-                document.write("hello"+"<br>")
+           for (x=1; x <=10; x+=1) {
+                document.write("hello" + "<br>")
+           }
+
+           var x=5;
+           switch(x){
+            case 5:
+                document.write("Good Morning" + "<br>");
+                break;
+            case 2: 
+                document.write("Good Afternoon" + "<br>");
+                break;
+            case 6:
+                document.write("Good Evening" + "<br>");
+                break;
+            case 10:
+                document.write("Good Night" + "<br>");
+                break;
+            default:
+                document.write("Good Day" + "<br>");                
            }
         </script>
     </body>
